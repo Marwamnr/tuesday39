@@ -1,0 +1,26 @@
+###
+
+GET http://localhost:7777/hello
+
+###
+
+GET http://localhost:7777/countries
+
+###
+
+POST http://localhost:7777/countries
+Content.Type: application/text
+
+amsterdam
+
+###
+DELETE http://localhost:7777/countries/amsterdam
+
+###
+
+PUT localhost:7777/countries/Marokko
+Content-Type: application/text
+
+Tyskland
+
+

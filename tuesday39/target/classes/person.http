@@ -1,0 +1,29 @@
+
+
+### Get all persons
+GET http://localhost:7777/persons
+
+###
+
+### Add a new person
+POST http://localhost:7777/persons
+Content-Type: application/json
+
+{
+  "name": "Sarah"
+}
+
+###
+
+### Delete a person by name (e.g., "Sarah")
+DELETE http://localhost:7777/persons/Sarah
+
+###
+
+### Update a person by name (e.g., update "Emily" to "Emma")
+PUT http://localhost:7777/persons/Emily
+Content-Type: application/json
+
+{
+  "name": "Emma"
+}
